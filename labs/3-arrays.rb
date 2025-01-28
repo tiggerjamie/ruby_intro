@@ -12,9 +12,16 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+my_shopping_list = ["whiskey","vermouth","bitters","luxardo cherries"]
+their_shopping_list = ["arugula","dressing","chicken","parmesan", "luxardo cherries"]
 
+our_list = my_shopping_list + their_shopping_list
+our_list.sort!
+puts our_list.uniq
 
-
+for grocery in our_list.uniq
+    puts "Buy #{grocery}"
+end 
 
 # HINTS
 # Learn to read the documentation!
