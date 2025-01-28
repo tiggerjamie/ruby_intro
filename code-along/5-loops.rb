@@ -19,3 +19,12 @@ tacos = ["carnitas", "carne asada", "pollo", "pescado"]
   for taco in tacos
     puts "#{taco} tacos!"
   end
+
+
+
+
+  belchers = ["bob","linda","tina","gene","louise"]
+
+  for person in belchers
+    puts "#{person} works at Bob's Burgers!"
+  end 
