@@ -22,6 +22,6 @@ my_profile = {
     location: {city: "Evanston", state: "IL"}
 }
 
-puts my_profile
+puts my_profile [:name]
 puts my_profile["status"]
-puts my_profile[:location][:city] + my_profile[:location][:state]
+puts my_profile[:location][:city] + " " + my_profile[:location][:state]
